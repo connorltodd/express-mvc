@@ -1,0 +1,17 @@
+<!-- home.pug -->
+doctype html
+html(lang="en")
+   head
+      title Lisbon Tours
+
+   body
+      h1 The best Tours in Lisbon
+      ul
+        for item in trips
+            li
+                p name
+                p=item.name
+                p price
+                p=item.price
+                p hours
+                p=item.hours
